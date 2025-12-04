@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>Soinueng Members - Page 2</title>
+  <link rel="stylesheet" href="style.css">
+
+  <style>
+    /* ⭐ โลโก้ด้านบน */
+    .container {
+      padding-top: 10px;
+    }
+
+    .logo {
+      width: 400px;
+      display: block;
+      margin: 0 auto 20px auto;
+      cursor: pointer;              /* คลิกได้ */
+      transition: transform 0.2s ease;
+    }
+
+    .logo:hover {
+      transform: scale(1.03);       /* effect เวลา hover */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <!-- ⭐ คลิกโลโก้ → กลับไปหน้า main.html -->
+    <a href="index.html">
+      <img src="images/logo.png" class="logo" alt="Soinueng Logo">
+    </a>
+
+    <input id="search" type="text" placeholder="Search members...">
+    <div id="list"></div>
+  </div>
+
+  <div class="pagination">
+      <a href="page1.html" class="page-btn">BACK</a>
+      <span class="page-info">2 OF 3</span>
+      <a href="page3.html" class="page-btn">NEXT</a>
+  </div>
+
+  <div class="footer-credit">
+    <p>Designed by BigS1 | © 2025</p>
+  </div>
+
+  <div class="footer-credit2">
+    <p>Powered by OG_SOINUENG | © 2025</p>
+  </div>
+
+  <script src="page2.js"></script>
+</body>
+</html>
